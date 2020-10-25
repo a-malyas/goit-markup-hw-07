@@ -14,21 +14,17 @@
     url(../images/back_img.jpg);
   text-align: center;
 
-  .container {
-    height: 600px;
+  &-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $white-dark-theme;
+
+    padding-top: 200px;
   }
-}
-
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: $white-dark-theme;
-
-  padding-top: 200px;
 }
 
 .button {
