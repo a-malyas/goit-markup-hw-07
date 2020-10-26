@@ -33,50 +33,14 @@ body {
   margin: 0 auto;
 }
 
-.header .container {
+.header .container,
+.footer .container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .hero .container {
   height: 600px;
-}
-
-.features .container {
-  padding-top: 94px;
-  padding-bottom: 90px;
-}
-
-.about .container {
-  padding-bottom: 98px;
-}
-
-.team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.clients .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.footer .container {
-  display: flex;
-  align-items: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.filters .container {
-  padding-top: 94px;
-  padding-bottom: 34px;
-}
-
-.projects .container {
-  padding-bottom: 94px;
 }
 
 .features-title {
@@ -85,7 +49,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-color);
+  color: #212121;
 }
 
 .footer .features-title {
@@ -195,6 +159,7 @@ body {
 
 .navigation {
   display: flex;
+  padding: 24px 0px;
 }
 
 .navigation-list {
@@ -252,8 +217,7 @@ body {
 }
 
 .menu {
-  padding-left: 280px;
-  padding-right: 280px;
+  padding: 94px 280px 34px;
   display: flex;
   justify-content: space-between;
 }
@@ -288,6 +252,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 
 .projects-list > li:not(:nth-last-child(-n + 3)) {
@@ -365,6 +330,8 @@ body {
   justify-content: space-around;
   margin-right: 70px;
   min-width: 231px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-address {

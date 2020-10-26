@@ -6,4 +6,9 @@
   letter-spacing: 0.03em;
   color: $title-color;
   margin-bottom: 50px;
+
+  .team &,
+  .clients & {
+    padding-top: 94px;
+  }
 }

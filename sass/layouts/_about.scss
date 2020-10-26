@@ -1,6 +1,7 @@
 .about-list {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 98px;
 
   &-item {
     position: relative;
@@ -8,7 +9,7 @@
   }
 
   &-subtitle {
-    ont-weight: 700;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
